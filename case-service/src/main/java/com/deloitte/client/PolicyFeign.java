@@ -9,6 +9,6 @@ import com.deloitte.dummy.Policy;
 @FeignClient(name="POLICY-SERVICE")
 public interface PolicyFeign {
 
-	@GetMapping("policy/{policyId}")
-	Policy findPolicyByPolicyId(@PathVariable String policyId);
+	@GetMapping("policy/find/{policyId}")
+	Policy searchPolicyByPolicyId(@PathVariable String policyId);
 }

@@ -11,7 +11,7 @@ import com.deloitte.dummy.Member;
 @FeignClient(name="MEMBER-SERVICE")
 public interface MemberFeign {
 
-	@GetMapping("/member/{memberId}")
+	@GetMapping("/member/find/{memberId}")
 	Member searchMemberByMemberId(@PathVariable String memberId);
 	
 	@GetMapping("/member")

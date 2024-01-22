@@ -1,0 +1,6 @@
+com\deloitte\service\MemberService.class
+com\deloitte\entity\Member.class
+com\deloitte\service\MemberServiceImpl.class
+com\deloitte\MemberServiceApplication.class
+com\deloitte\controller\MemberController.class
+com\deloitte\repository\MemberRepository.class
